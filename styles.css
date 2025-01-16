@@ -1,0 +1,74 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to bottom right, #4facfe, #00f2fe);
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h1{
+    color: #ffffff;
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+    font-size: 3rem;
+    margin-bottom:  1rem;
+}
+.container{
+    background:rgba(255,255,255,0.15);
+    backdrop-filter: blue(10px);
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+    max-width: 400px;
+    width: 100%;
+    margin:auto;
+}
+
+input[type="text"],input[type="password"]{
+    border:none;
+    border-bottom: 2px solid #ffffff;
+    background: transparent;
+    color: #ffffff;
+    padding: 10px 5px;
+    font-size: 1rem;
+    outline: none;
+    transition: border-color 0.3s;
+
+}
+
+input[type="text"]:focus,input[type="password"]:focus{
+    border-bottom-color:#00f2fe;
+
+}
+
+lable{
+    display: block;
+    margin-bottom:0.5rem;
+    font-weight: bold;
+    font-size: 1.2rem;
+
+
+}
+
+.mt-3{
+    display:flex;
+    justify-content: center;
+}
+@media(max-width:768px){
+    .container{
+        padding:1.5rem;
+        width: 90%;
+    }
+    h1{
+        font-size: 2rem;
+    }
+    input[type="text"],input[type="password"]{
+        font-size: 0.9rem;
+    }
+    button{
+        font-size: 0.9rem;
+    }
+}
