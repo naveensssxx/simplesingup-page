@@ -16,26 +16,26 @@
             <labl class="form-label fw-bold fs-3">
         Name:
             </labl>
-            <input type="Text" class="form-control" required>
+            <input type="Text" class="form-control" id="name" required>
         </div>
 
         <div class="mt-2 col-3 offset-5">
             <labl class="form-label fw-bold fs-3">
         Email:
             </labl>
-            <input type="Text" class="form-control" required>
+            <input type="Text" class="form-control" id="Email" required>
         </div>
         <div class="mt-2 col-3 offset-5">
             <labl class="form-label fw-bold fs-3">
         Mobile:
             </labl>
-            <input type="Text" class="form-control" required>
+            <input type="Text" class="form-control" id="Mobile"required>
         </div>
         <div class="mt-2 col-3 offset-5">
             <labl class="form-label fw-bold fs-3">
         Password:
             </labl>
-            <input type="Text" class="form-control" required>
+            <input type="Text" class="form-control" id="Password" required>
         </div>
       <div class="mt-2 offset-12 text-center">
         <button type="button" class="btn btn-primary" onclick="singup();">Singup</button>
